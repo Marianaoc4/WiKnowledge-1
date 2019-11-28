@@ -1,0 +1,308 @@
+
+/*estilo do caraio
+*/
+
+@font-face {
+font-family: "Roboto";
+src: url("fonts/Roboto-Regular.ttf");
+src: 
+url("fonts/Roboto-thin.ttf") format("ttf"),
+url("fonts/Roboto-Black.ttf") format("ttf"),
+url("fonts/Roboto-Bold.ttf") format("ttf");
+}
+
+*{
+	font-family: "arial";
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+    font-family: "Arial";
+}
+
+.square{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+    margin: 2%;
+    float: center;
+    position: relative;
+
+}
+
+.block{
+  position: absolute;
+  text-align: center;
+  background: #1a1a1a;
+  width: 96%;
+  height: 100%;
+  opacity: 0.9;
+}
+ 
+.block:before {
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+ }
+ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  height: 100%;
+  background: #222;
+  color: #FFF;
+  text-align: center;
+ }
+
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(image/stock.jpg) repeat;
+	background-size: cover; 
+}
+
+h2{
+	font-size: 300%;
+}
+
+p{
+	opacity: 1;
+	padding: 10px;
+	text-align: center;
+}
+
+#inicio{
+	width: 100%;
+	height: 50px;
+	background: #000;
+	color: #FFF;
+	position: fixed;
+	opacity: 0.75;
+	z-index: 3;
+}
+
+#about{
+	font-size: 17px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 800px;
+	size: fixed;
+}
+
+#imgabout{
+	width: 70%;
+	opacity: 1;
+	padding: 45px;
+	align-content: center;
+}
+
+#fnf1{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 950px;
+	size: fixed;
+}
+
+#fnft1{
+	font-size: 17px;
+	margin-top: 10%;
+	margin-right: 600px;
+}
+
+#imgfnf1{
+	float:right;
+	width: 35%;
+	margin-right: 100px;
+	padding-top: 50px;
+}
+
+#fnf2{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 950px;
+	size: fixed;
+	font-size: 17px;
+}
+
+#fnft2{
+	font-size: 17px;
+	margin-top: 350px;
+	margin-right: 600px;
+}
+
+#imgfnf2{
+	float:right;
+	width: 35%;
+	margin-right: 100px;
+	padding-top: 50px;
+}
+
+#fnf3{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 950px;
+	size: fixed;
+	font-size: 17px;	
+}
+
+#fnft3{
+	font-size: 17px;
+	margin-top: 300px;
+	margin-right: 600px;
+}
+
+#imgfnf3{
+	float:right;
+	width: 35%;
+	margin-right: 100px;
+	padding-top: 25px;
+}
+
+#fnf4{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 950px;
+	size: fixed;
+	font-size: 17px;
+}
+
+#fnft4{
+	font-size: 17px;
+	margin-top: 350px;
+	margin-right: 600px;
+}
+
+#imgfnf4{
+	float:right;
+	width: 35%;
+	margin-right: 100px;
+	padding-top: 50px;
+}
+
+#fnf5{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 950px;
+	size: fixed;
+	font-size: 17px;	
+}
+
+#fnft5{
+	font-size: 17px;
+	margin-top: 85px;
+	margin-right: 600px;
+}
+
+#imgfnf5{
+	float:right;
+	width: 35%;
+	margin-right: 100px;
+	padding-top: 50px;
+}
+
+#fnf6{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 950px;
+	size: fixed;
+	font-size: 17px;
+}
+
+#fnft6{
+	font-size: 17px;
+	margin-top: 135px;
+	margin-right: 600px;
+}
+
+#imgfnf6{
+	float:right;
+	width: 35%;
+	margin-right: 100px;
+	padding-top: 50px;
+}
+
+#fnf7{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 950px;
+	size: fixed;
+	font-size: 17px;
+}
+
+#fnft7{
+	font-size: 17px;
+	margin-top: 150px;
+	margin-right: 600px;
+}
+
+#imgfnf7{
+	float:right;
+	width: 35%;
+	margin-right: 100px;
+	padding-top: 25px;
+}
+
+#fnf8{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 950px;
+	size: fixed;
+	font-size: 17px;
+}
+
+#fnft8{
+	font-size: 17px;
+	margin-top: 150px;
+	margin-right: 600px;
+}
+
+#imgfnf8{
+	float:right;
+	width: 35%;
+	margin-right: 100px;
+	padding-top: 50px;
+}
+
+#titlehead{
+	padding: 20px;
+	size: 100%;
+}
+
+#a1{
+	height: 54%;
+}
+
+}
+
+nav a:link, nav a:visited{
+	display: block;
+	float: center;
+	border: solid 1px white;
+	width: 18%;
+	height: 30px;
+	color: white;
+	text-decoration: none;
+	font-variant: small-caps;
+	padding-top: 5px;
+	text-align: center;
+}
+
+nav a:hover{
+	background: white;
+	color: black;
+	border-bottom: solid;
+}
+
+section{
+	height: 110%;
+}
